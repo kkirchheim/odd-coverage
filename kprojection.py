@@ -128,8 +128,6 @@ class KProjectionCoverage(Metric):
     Examples:
         How to use this metric:
 
-            from ovgu_metrics import KProjectionCoverage
-
             description = {
                 "weather": ["good", "bad", "ugly"],
                 "temperature": [1, 2, 3, 4],
