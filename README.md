@@ -5,6 +5,8 @@ Implementation of Quantitative Projection Coverage from the paper "Quantitative 
 ## Usage 
 
 ```python
+from kprojection import KProjectionCoverage
+
 # Create an Operational Design Domain (ODD) description
 # This is a dict with one entry per dimension, which maps each dimension to possible values 
 description = {
